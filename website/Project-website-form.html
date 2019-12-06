@@ -18,9 +18,9 @@ src="ariadne.png" alt="" width="458" />
 
 <h4>Problem statement and motivation:</h4>
 <p align=”justify”>
-    In all branches of engineering, verification is a very important step to make sure that the designed product works as expected in every situation. Instead of testing everything on the real system, it is also possible to perform the tests on a computer instead. Therefore, a mathematical model of the system has to be formulated that captures every influencing factor. This is a very specific use case where the calculations have to be of high accuracy so it cannot be implemented easily by standard libraries.
+    In all branches of engineering, verification is a very important step to make sure that the designed product works as expected in every situation. Instead of testing everything on the real system, it is also possible to perform the tests on a computer instead. Therefore, a mathematical model of the system has to be formulated that captures every influencing factor. This are very specific use cases, where those systems could not be solved exactly but a solution is aproximated by numerical analysis methods.Calculations have to be of high accuracy so they cannot be implemented easily by standard libraries.
     
-    Ariadne is a library specifically designed for the cases described above. To ensure accuracy, the calculations are performed rigorously. <!--TODO: Probably we should explain what rigorous numerics is-->  It is written in C++ but also has bindings to be used in Python. The rigorous numerics methods can be used outside of a model checking context as well.
+    Ariadne is a library specifically designed for the cases described above. It is written in C++ but also has bindings to be used in Python. To ensure accuracy, the calculations are performed rigorously. Rigorous numerics are a subfield of numerical analysis and can be implimented to give extremely thorough numerical aproximations for various field of mathematics, like linear algebra, differential equations and so on.<!--TODO: Probably we should explain what rigorous numerics is-->
     
     At the moment, it is a challenge to get started with Ariadne because of the documentation. Parts of it are out of date, difficult to comprehent and useful information for beginners is often missing. By improving it and adding missing parts, it could be more accessible to students and other people who might benefit from it.
 </p>
@@ -38,7 +38,7 @@ src="ariadne.png" alt="" width="458" />
 <h4>Research questions/hypotheses:</h4>
 <ul>
 <li>What parts of the documentation are most important to be improved to make it more usable?</li>
-<li>??? ?</li>
+<li>What are some example cases ARIADNE can be used?</li>
 <li>??? ?</li>
 </ul>
 
@@ -46,6 +46,7 @@ src="ariadne.png" alt="" width="458" />
 <ul>
 <li>Improve the installation and "Getting Started" part of the documentation to make sure that people are able to use it. To achieve this, the installation process has to work without errors. Furthermore, a section for common issues and frequently asked questions should be included, as well as links to general information like the programming language and the usage of the command line.</li>
 <li>Bring important tutorials into a form that makes them understandable and easy to use by for example adding information or converting it to a Jupyter Notebook.</li>
+<li>Add new tutorials.</li>    
 <li>Do an experiment with Bachelor students to test the impact of the improvements and get input for future work.</li>
 <li>Provide reports of our own experiences to the developers and give suggestions how the documentation could be improved, as we are also using the software for the first time.</li>
 </ul>
