@@ -4,20 +4,26 @@
 <title>Page Title</title>
 </head>
 <body>
-<h2>Your Project Title Here</h2>
+<h2>Making Rigorous Numerics Easy</h2>
 
-Student(s): ???;
-Supervisor(s): ???;
-Semester: 2017-2018;
+Student(s): Paul Disbeschl, Eugenia Gorbulenko, Anna Koufou, Camilla Lummerzheim, Daniel Wolters;
+Supervisor(s): Dr. Pieter Collins;
+Semester: 2019-2020;
 
 <figure><img style="float: left; padding-right: 20px;"
-src="http://<url to image>" alt="" width="458" height="300" />
-<figcaption>Fig 1. - General image that illustrates overall project
+src="ariadne.png" alt="" width="458" />
+<figcaption>Fig 1. - Logo of Ariadne
 </figcaption>
 </figure>
 
 <h4>Problem statement and motivation:</h4>
-<p align=”justify”>???.</p>
+<p align=”justify”>
+    In all branches of engineering, verification is a very important step to make sure that the designed product works as expected in every situation. Instead of testing everything on the real system, it is also possible to perform the tests on a computer instead. Therefore, a mathematical model of the system has to be formulated that captures every influencing factor. This is a very specific use case where the calculations have to be of high accuracy so it cannot be implemented easily by standard libraries.
+    
+    Ariadne is a library specifically designed for the cases described above. To ensure accuracy, the calculations are performed rigorously. <!--TODO: Probably we should explain what rigorous numerics is-->  It is written in C++ but also has bindings to be used in Python. The rigorous numerics methods can be used outside of a model checking context as well.
+    
+    At the moment, it is a challenge to get started with Ariadne because of the documentation. Parts of it are out of date, difficult to comprehent and useful information for beginners is often missing. By improving it and adding missing parts, it could be more accessible to students and other people who might benefit from it.
+</p>
 
 <figure><img style="text-align: center;" src="http://<url to image>" alt="" />
 <figcaption>Fig 2. - ???.
@@ -31,19 +37,25 @@ src="http://<url to image>" alt="" width="458" height="300" />
 
 <h4>Research questions/hypotheses:</h4>
 <ul>
-<li>??? ?</li>
+<li>What parts of the documentation are most important to be improved to make it more usable?</li>
 <li>??? ?</li>
 <li>??? ?</li>
 </ul>
 
 <h4>Main outcomes:</h4>
 <ul>
-<li>???.</li>
-<li>???.</li>
+<li>Improve the installation and "Getting Started" part of the documentation to make sure that people are able to use it. To achieve this, the installation process has to work without errors. Furthermore, a section for common issues and frequently asked questions should be included, as well as links to general information like the programming language and the usage of the command line.</li>
+<li>Bring important tutorials into a form that makes them understandable and easy to use by for example adding information or converting it to a Jupyter Notebook.</li>
+<li>Do an experiment with Bachelor students to test the impact of the improvements and get input for future work.</li>
+<li>Provide reports of our own experiences to the developers and give suggestions how the documentation could be improved, as we are also using the software for the first time.</li>
 </ul>
 
 <h4>References:</h4>
-Kitano, H., Asada, M., Kuniyoshi, Y., Noda, I., &amp; Osawa, E. (1997). Robocup: the robot world cup initiative. Proceedings of the first international conference on Autonomous agents, 340-347.
+<ol>
+    <li>Ariadne. Ariadne. http://www.ariadne-cps.org/.</li>
+    <li>Ariadne GitHub. Ariadne. https://github.com/ariadne-cps/.</li>
+    <li>P. Collins. Model checking dynamic systems.Nieuw Archief voor Wiskunde, 5/17(3), 2016. http://www.nieuwarchief.nl/serie5/pdf/naw5-2016-17-3-214.pdf .</li>
+</ol>
 
 <h4>Downloads:</h4>
 <a href=”???” target=”_blank”>Final report</a>
