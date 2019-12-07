@@ -18,11 +18,24 @@ src="ariadne.png" alt="" width="458" />
 
 <h4>Problem statement and motivation:</h4>
 <p align=”justify”>
-    In all branches of engineering, verification is a very important step to make sure that the designed product works as expected in every situation. Instead of testing everything on the real system, it is also possible to perform the tests on a computer instead. Therefore, a mathematical model of the system has to be formulated that captures every influencing factor. This are very specific use cases, where those systems could not be solved exactly but a solution is aproximated by numerical analysis methods.Calculations have to be of high accuracy so they cannot be implemented easily by standard libraries.
-    
-    Ariadne is a library specifically designed for the cases described above. It is written in C++ but also has bindings to be used in Python. To ensure accuracy, the calculations are performed rigorously. Rigorous numerics are a subfield of numerical analysis and can be implimented to give extremely thorough numerical aproximations for various field of mathematics, like linear algebra, differential equations and so on.<!--TODO: Probably we should explain what rigorous numerics is-->
-    
-    At the moment, it is a challenge to get started with Ariadne because of the documentation. Parts of it are out of date, difficult to comprehent and useful information for beginners is often missing. By improving it and adding missing parts, it could be more accessible to students and other people who might benefit from it.
+When it comes to the programming of scientific software, 
+<!-- Stuff about how software needs docs and tutorials for intended audience -->
+<!-- Stuff about how especially FLOSS software tends to lack documentation since there's no financial incentive -->
+<!-- Paul's ideas for research questions -->
+    <!-- How can we create easy-to-use docs/tutorials so that the intended audience can use it well? -->
+    <!-- How can we do this without knowing all of the software? -->
+    <!-- How can we accurately measure the effect of improved usage instructions? -->
+    <!-- What makes software easy-to-use? -->
+    <!-- NOT SURE -> How can we make sure documentation doesn't become out of date again? -->
+</p>
+<p align=”justify”> <!-- I honestly think the next paragraph (which is good) should be in the report, not here -->
+    In all branches of engineering, verification is a very important step to make sure that the designed product works as expected in every situation it encounters. Rather than testing everything on the actual system, it is typically easier and cheaper to perform tests on a replication of the system instead. This model must be designed in such a way that it accurately simulates the real-world behaviors and constraints of the actual system. Since not every condition can be replicated exactly, solutions are approximated through numerical analysis. These calculations must be highly accurate and as such cannot be implemented easily by standard libraries, since these typically output exact symbolic answers. 
+</p>
+<p align=”justify”>    <!-- Yes. Keep this. -->
+   Ariadne is a software library, written in C++ with bindings in Python, specifically designed for accurate verification through rigorous numerical approximation. Rigorous numerics, a subfield of numerical analysis, is used for generating thorough numerical aproximations for various field of mathematics. 
+</p>
+<p align=”justify”>    <!-- Grammar & spelling mistakes, need to fix this, incorporate it with top -->
+    At the moment, it is a challenge to get started with Ariadne because of the documentation. Parts of it are out of date, difficult to comprehend and useful information for beginners is often missing. By improving it and adding missing parts, it could be more accessible to students and other people who might benefit from it.
 </p>
 
 <figure><img style="text-align: center;" src="http://<url to image>" alt="" />
